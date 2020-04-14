@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="d3dmenu.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DFont.cpp">
+      <Filter>D3DFont</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dmenu.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="detour.h">
+      <Filter>HOOK</Filter>
+    </ClInclude>
+    <ClInclude Include="int.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Addies.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DFont.h">
+      <Filter>D3DFont</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="D3D">
+      <UniqueIdentifier>{6aa27705-435c-4852-b58f-8fb822e79799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HOOK">
+      <UniqueIdentifier>{792cd597-4d47-47b1-9e82-80a6851af97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DFont">
+      <UniqueIdentifier>{db260705-c130-436f-bdc6-c2a317f460f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{faf2b4ec-0816-4d22-8662-be5d3d5b9f17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

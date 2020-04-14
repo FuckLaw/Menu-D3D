@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{f79bc02b-67d1-4b6d-965a-83a5519cb144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Quellen">
+      <UniqueIdentifier>{b8ae0d47-e7c1-43ff-a327-b60c14430397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{69b9a912-a28c-4d7b-a4ec-8809d503e814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detours/structs/Bypass">
+      <UniqueIdentifier>{d1920e6b-275e-42e3-bb87-0c8a284ef919}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Quelle.cpp">
+      <Filter>Quellen</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dmenu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Addies.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="int.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Quelle.h">
+      <Filter>Quellen</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dmenu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="detour.h">
+      <Filter>Detours/structs/Bypass</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
